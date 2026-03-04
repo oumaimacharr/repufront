@@ -16,6 +16,9 @@ import {
   ShoppingBag,
   SquareArrowUpRight,
   Users,
+  ScanEye,
+  Smile,
+  Network,
 } from "lucide-react";
 
 export interface NavSubItem {
@@ -54,14 +57,24 @@ export const sidebarItems: NavGroup[] = [
         icon: LayoutDashboard,
       },
       {
-        title: "CRM",
-        url: "/dashboard/crm",
-        icon: ChartBar,
+        title: "Overview",
+        url: "/dashboard/overview",
+        icon: LayoutDashboard,
+      },
+       {
+        title: "Visibility",
+        url: "/dashboard/visibility",
+        icon: ScanEye,
       },
       {
-        title: "Finance",
-        url: "/dashboard/finance",
-        icon: Banknote,
+        title: "Sentiment",
+        url: "/dashboard/sentiment",
+        icon: Smile,
+      },
+      {
+        title: "Social Engagement",
+        url: "/dashboard/social-engagement",
+        icon: Network,
       },
       {
         title: "Analytics",
